@@ -39,6 +39,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
   height: auto;
 }
 
@@ -48,3 +49,36 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.section-two {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:var(--accent-color);
+}
+.section-two-box {
+  padding-top: 151px;
+  padding-left: 178px;
+  padding-bottom: 95px;
+  padding-right: 181px;
+}
+.section-two-title {
+  font-size: 36px;
+line-height: 0.75;
+  margin-bottom: 75px;
+  letter-spacing: -0.006em;
+  color: var(--white-color);
+}
+.section-two-text {
+  font-size: 24px;
+  line-height: 1.45;
+
+  color: var(--white-color);
+}
+.section-two-text-span {
+  font-size: 20px;
+  line-height: 1.45;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
