@@ -4,54 +4,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <header></header>
-    <section></section>
-    <!--section2-->
-    <section class="section-two section">
-      <div class="section-two-box container">
-        <h2 class="section-two-title">Why Thrive?</h2>
-        <p class="section-two-text">
-          Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right therapist?
-          <span class="section-two-text-span"
-            >Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office from anywhere you can access your
-            laptop or mobile phone. Become your best self with ThriveTalk. Start therapy now with a licensed therapist!</span
-          >
-        </p>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__container">
+        <nav class="navigation">
+          <a class="logo" href="./index.html">Thrivetalk</a>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#home">Home</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#about">About</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#services">Services</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="btn-open-modal" type="button" data-modal-open>Contact us</button>
       </div>
-      <img src="./imeges/section-two.jpg" alt="girl" />
-    </section>
-    <!--section-3-->
-    <section class="container about-us">
-      <h2 class="section-title">About us</h2>
-      <p class="abut-us-description">
-        We want to help you thrive! Whether you are just looking for someone to talk to, or are struggling with a mental wellness issue we’re here to
-        help. Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or
-        even just caring for yourself more.
-      </p>
-      <h3 class="section-subtitle">we can help you with</h3>
-      <ul class="categories-list">
-        <li class="categories-item">
-          <span class="categories-name">Weight Lifting</span>
-        </li>
-        <li class="categories-item">
-          <span class="categories-name">Running & Spinning</span>
-        </li>
-        <li class="categories-item">
-          <span class="categories-name">Pumping Iron</span>
-        </li>
-        <li class="categories-item">
-          <span class="categories-name">Pumping Iron</span>
-        </li>
-      </ul>
-    </section>
-    <section>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section class="section hero">
+        <div class="container hero__container">
+          <div class="content-container">
+            <h1 class="hero__title">
+              <span class="hero__label">Thrivetalk</span>Helping you thrive in all areas of life
+            </h1>
+            <p class="hero__text">
+              Our highly talented therapists can help you with a range of issues including
+              relationships, sex, PTSD, depression, social anxiety, or even just caring for
+            </p>
+            <div class="btn-container">
+              <button class="hero__btn" type="button">Who am i</button>
+              <button class="hero__btn hero__btn--color" type="button">What do i do</button>
+            </div>
+          </div>
+
+          <div class="matrix-rectangle-box"></div>
+          <div class="matrix-rectangle-img">
+            <div class="rectangle-img"></div>
+          </div>
+        </div>
+      </section>
+      <!--section2-->
+      <section class="section-two section">
+        <div class="section-two-box container">
+          <h2 class="section-two-title">Why Thrive?</h2>
+          <p class="section-two-text">
+            Want to improve your well-being from the comfort of your own couch? Are you having
+            trouble finding the right therapist?
+            <span class="section-two-text-span"
+              >Here at ThriveTalk, our licensed therapists provide the same quality care you would
+              get in office from anywhere you can access your laptop or mobile phone. Become your
+              best self with ThriveTalk. Start therapy now with a licensed therapist!</span
+            >
+          </p>
+        </div>
+        <img src="./imeges/section-two.jpg" alt="girl" />
+      </section>
+      <!--section-3-->
+      <section class="container about-us">
+        <h2 class="section-title">About us</h2>
+        <p class="abut-us-description">
+          We want to help you thrive! Whether you are just looking for someone to talk to, or are
+          struggling with a mental wellness issue we’re here to help. Our highly talented therapists
+          can help you with a range of issues including relationships, sex, PTSD, depression, social
+          anxiety, or even just caring for yourself more.
+        </p>
+        <h3 class="section-subtitle">we can help you with</h3>
+        <ul class="categories-list">
+          <li class="categories-item">
+            <span class="categories-name">Weight Lifting</span>
+          </li>
+          <li class="categories-item">
+            <span class="categories-name">Running & Spinning</span>
+          </li>
+          <li class="categories-item">
+            <span class="categories-name">Pumping Iron</span>
+          </li>
+          <li class="categories-item">
+            <span class="categories-name">Pumping Iron</span>
+          </li>
+        </ul>
+      </section>
+
       <!-- ========== SECTION 4 ========= -->
       <section class="section-color-cards" id="services">
         <div class="container">
@@ -111,129 +165,186 @@
       </section>
 
       <!-- ========== SECTION 4 ========= -->
-    </section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section>
-      <div class="last-section">
-        <img src="./image/section-8-image.jpg" alt="goodman" />
-        <div class="box-list">
-          <ul class="list-title">
-            <li class="list list-text">
-              <h2 class="title-name">Some info</h2>
-              <p class="text-sect">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
-            </li>
-            <li class="list">
-              <h2 class="title-name">ENFOLD HEALTH</h2>
-              <address class="adress-title">
-                <ul class="list-last-sect list">
-                  <li class="cont-link phone-link">
-                    <a class="maps-list link list-cont" href="https://goo.gl/maps/dgFCb23ZLic6S4VJ9" target="_blank" rel="nooper noreferrer nofollow">
-                      Main Street 1, Olcott Buffalo, United States
-                    </a>
-                  </li>
-                  <li class="cont-link link">
-                    <a class="cont-phone link list-cont" href="tel:+555 283 784 333">+555 283 784 333</a>
-                  </li>
-                  <li class="cont-link">
-                    <a class="list-mail" href="mailto:office@enfold-health.com">office@enfold-health.com</a>
-                  </li>
-                </ul>
-              </address>
-            </li>
-            <li class="list">
-              <h2 class="title-name">Office hours</h2>
-              <p class="text-sect">
-                Mo-Fr: 8:00-19:00 <br />
-                Sa: 8:00-14:00 <br />
-                Su: closed
-              </p>
-            </li>
-          </ul>
+
+      <section></section>
+      <section></section>
+      <section></section>
+      <section>
+        <div class="last-section">
+          <img src="./image/section-8-image.jpg" alt="goodman" />
+          <div class="box-list">
+            <ul class="list-title">
+              <li class="list list-text">
+                <h2 class="title-name">Some info</h2>
+                <p class="text-sect">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.
+                </p>
+              </li>
+              <li class="list">
+                <h2 class="title-name">ENFOLD HEALTH</h2>
+                <address class="adress-title">
+                  <ul class="list-last-sect list">
+                    <li class="cont-link phone-link">
+                      <a
+                        class="maps-list link list-cont"
+                        href="https://goo.gl/maps/dgFCb23ZLic6S4VJ9"
+                        target="_blank"
+                        rel="nooper noreferrer nofollow"
+                      >
+                        Main Street 1, Olcott Buffalo, United States
+                      </a>
+                    </li>
+                    <li class="cont-link link">
+                      <a class="cont-phone link list-cont" href="tel:+555 283 784 333"
+                        >+555 283 784 333</a
+                      >
+                    </li>
+                    <li class="cont-link">
+                      <a class="list-mail" href="mailto:office@enfold-health.com"
+                        >office@enfold-health.com</a
+                      >
+                    </li>
+                  </ul>
+                </address>
+              </li>
+              <li class="list">
+                <h2 class="title-name">Office hours</h2>
+                <p class="text-sect">
+                  Mo-Fr: 8:00-19:00 <br />
+                  Sa: 8:00-14:00 <br />
+                  Su: closed
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- section 5 -->
-    <h2 class="visually-hidden">Our advantages</h2>
-    <ul class="list">
-      <div class="box">
-        <li class="list-title">
-          <div class="box-item">
-            <h3 class="list-item">Nutritional Plans</h3>
+      <!-- section 5 -->
+      <section>
+        <h2 class="visually-hidden">Our advantages</h2>
+        <ul class="list">
+          <div class="box">
+            <li class="list-title">
+              <div class="box-item">
+                <h3 class="list-item">Nutritional Plans</h3>
+              </div>
+              <div class="box-text">
+                <p class="list-text">
+                  Nutritional Facts on some shitty things that you don’t care about and even we
+                  don’t , I need to replace this copy.
+                </p>
+              </div>
+            </li>
           </div>
-          <div class="box-text">
-            <p class="list-text">
-              Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
-            </p>
+          <div class="box">
+            <li class="list-title">
+              <div class="box-item">
+                <h3 class="list-item">Weight Loss</h3>
+              </div>
+              <div class="box-text">
+                <p class="list-text">
+                  Nutritional Facts on some shitty things that you don’t care about and even we
+                  don’t , I need to replace this copy.
+                </p>
+              </div>
+            </li>
           </div>
-        </li>
-      </div>
-      <div class="box">
-        <li class="list-title">
-          <div class="box-item">
-            <h3 class="list-item">Weight Loss</h3>
+          <div class="box">
+            <li class="list-title">
+              <div class="box-item">
+                <h3 class="list-item">Mental Peace</h3>
+              </div>
+              <div class="box-text">
+                <p class="list-text">
+                  Nutritional Facts on some shitty things that you don’t care about and even we
+                  don’t , I need to replace this copy.
+                </p>
+              </div>
+            </li>
           </div>
-          <div class="box-text">
-            <p class="list-text">
-              Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
-            </p>
+          <div class="box">
+            <li class="list-title">
+              <div class="box-item">
+                <h3 class="list-item">Home Training</h3>
+              </div>
+              <div class="box-text">
+                <p class="list-text">
+                  Nutritional Facts on some shitty things that you don’t care about and even we
+                  don’t , I need to replace this copy.
+                </p>
+              </div>
+            </li>
           </div>
-        </li>
-      </div>
-      <div class="box">
-        <li class="list-title">
-          <div class="box-item">
-            <h3 class="list-item">Mental Peace</h3>
+          <div class="box">
+            <li class="list-title">
+              <div class="box-item">
+                <h3 class="list-item">Work &frasl; Life Balance</h3>
+              </div>
+              <div class="box-text">
+                <p class="list-text">
+                  Nutritional Facts on some shitty things that you don’t care about and even we
+                  don’t , I need to replace this copy.
+                </p>
+              </div>
+            </li>
           </div>
-          <div class="box-text">
-            <p class="list-text">
-              Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
-            </p>
+          <div class="box">
+            <li class="list-title">
+              <div class="box-item">
+                <h3 class="list-item">Cardio</h3>
+              </div>
+              <div class="box-text">
+                <p class="list-text">
+                  Nutritional Facts on some shitty things that you don’t care about and even we
+                  don’t , I need to replace this copy.
+                </p>
+              </div>
+            </li>
           </div>
-        </li>
-      </div>
-      <div class="box">
-        <li class="list-title">
-          <div class="box-item">
-            <h3 class="list-item">Home Training</h3>
-          </div>
-          <div class="box-text">
-            <p class="list-text">
-              Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
-            </p>
-          </div>
-        </li>
-      </div>
-      <div class="box">
-        <li class="list-title">
-          <div class="box-item">
-            <h3 class="list-item">Work &frasl; Life Balance</h3>
-          </div>
-          <div class="box-text">
-            <p class="list-text">
-              Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
-            </p>
-          </div>
-        </li>
-      </div>
-      <div class="box">
-        <li class="list-title">
-          <div class="box-item">
-            <h3 class="list-item">Cardio</h3>
-          </div>
-          <div class="box-text">
-            <p class="list-text">
-              Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to replace this copy.
-            </p>
-          </div>
-        </li>
-      </div>
-    </ul>
-
+        </ul>
+      </section>
+    </main>
     <footer>
       <p class="cop-text">&copy; Copyright - ThriveTalk 2017</p>
     </footer>
+    <!-- Backdrop -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <div class="modal-btn-close-container">
+          <button class="modal-btn-close" type="button" data-modal-close>X</button>
+        </div>
+
+        <form class="modal__form">
+          <p class="modal__text">Contact <span class="modal__accent">US</span></p>
+          <p class="modal__slogan">We are here to help.</p>
+          <div class="form-container">
+            <label class="modal__label" for="name"></label>
+            <input
+              class="modal__input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <label class="modal__label" for="tel"></label>
+            <input
+              class="modal__input"
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="Telephone"
+              required
+            />
+            <label class="modal__label" for="mail"></label>
+            <input class="modal__input" type="email" name="mail" id="mail" placeholder="Email" />
+          </div>
+
+          <button class="modal__send-btn">Send now</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
