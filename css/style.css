@@ -48,3 +48,79 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+/* ========== SECTION 4 ========== */
+
+.section-color-cards {
+}
+.container {
+  width: 1440px;
+}
+.section-four-header {
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.section-four-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-four-element {
+  width: 480px;
+  height: 480px;
+}
+.section-four-element:nth-child(1) {
+  background-color: var(--dark-blue);
+}
+.section-four-element:nth-child(2) {
+  background-color: var(--blue-color);
+}
+.section-four-element:nth-child(3) {
+  background-image: url(../images/strawberry.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-four-element:nth-child(4) {
+  background-color: var(--accent-color);
+}
+.section-four-element:nth-child(5) {
+  background-color: var(--light-violet);
+}
+.section-four-element:nth-child(6) {
+  background-color: var(--violet);
+}
+.thumb {
+  width: 340px;
+  height: 96px;
+  box-shadow: inset 0px -1px 0px var(--white-color);
+  margin-left: 70px;
+}
+.dot {
+  --dot-color: #e9b730;
+  fill: var(--dot-color);
+  width: 24px;
+}
+.section-four-text {
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  line-height: 1.06;
+  letter-spacing: -0.006em;
+  color: var(--white-color);
+  text-transform: capitalize;
+  display: flex;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.short {
+  width: 220px;
+}
